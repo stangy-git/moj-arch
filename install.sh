@@ -26,6 +26,18 @@ sudo pacman -S --noconfirm $(cat packages/base.txt)
 sudo pacman -S --noconfirm $(cat packages/apps.txt)
 
 
+
+
+# flathub repo
+if ! flatpak remote-list | grep -q flathub; then
+  sudo flatpak remote-add --if-not-exists flathub \
+    https://flathub.org/repo/flathub.flatpakrepo
+fi
+
+# install flatpak apps
+xargs -a packages/flatpak.txt -r sudo flatpak install -y flathub
+
+
 #aur
 if ! command -v yay &>/dev/null; then
   sudo pacman -S --needed --noconfirm base-devel git
