@@ -1,0 +1,1 @@
+com.github.iwalton3.jellyfin-media-player io.github.dweymouth.supersonic run net.lutris.Lutris com.lunarclient.LunarClient com.github.tchx84.Flatseal fr.handbrake.ghb com.heroicgameslauncher.hgl com.ticktick.TickTick
