@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-echo "🚀 Installing my Arch setup"
+echo " Installing my Arch setup"
 
 # check if arch
 if ! command -v pacman &>/dev/null; then
