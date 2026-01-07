@@ -10,6 +10,8 @@ if ! command -v pacman &>/dev/null; then
 fi
 
 
+# dotfiles
+cp -r dotfiles/* ~/
 
 #turns on 32bit library for steam etc.
 sudo sed -i '/\[multilib\]/,/Include/s/^#//' /etc/pacman.conf
@@ -42,15 +44,13 @@ yay -S --noconfirm $(cat packages/aur.txt)
 
 
 #ignore function of power button
-sudo sed -i 's/^#HandlePowerKey=.*/HandlePowerKey=ignore/' /etc/systemd/logind.conf
-sudo systemctl restart systemd-logind
+#sudo sed -i 's/^#HandlePowerKey=.*/HandlePowerKey=ignore/' /etc/systemd/logind.conf
+#sudo systemctl restart systemd-logind
 
 
 
 
 
-# dotfiles
-cp -r dotfiles/* ~/
 
 # permissions
 chmod +x dotfiles/bin/*
