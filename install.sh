@@ -43,17 +43,12 @@ yay -S --noconfirm $(cat packages/aur.txt)
 #./services.sh
 
 
-#ignore function of power button
-#sudo sed -i 's/^#HandlePowerKey=.*/HandlePowerKey=ignore/' /etc/systemd/logind.conf
-#sudo systemctl restart systemd-logind
-
-
-
-
-
 
 # permissions
 chmod +x dotfiles/bin/*
 
-echo "✅ Done. Reboot recommended."
+
+#ignore function of power button
+sudo sed -i 's/^#HandlePowerKey=.*/HandlePowerKey=ignore/' /etc/systemd/logind.conf
+sudo systemctl restart systemd-logind
 
