@@ -1,0 +1,37 @@
+:root {
+  /* === ZÁKLADNÉ FARBY === */
+  --background-primary: #1B2119;
+  --background-secondary: #161B14;
+  --background-tertiary: #121710;
+  --background-floating: #1E241C;
+  --channeltextarea-background: #1B2119;
+  --background-accent: #A7C0800F;
+  --background-mentioned: #A7C08010;
+  --background-mentioned-hover: #A7C08020;
+
+  /* === TEXTY === */
+  --text-normal: #D7E3C8;
+  --text-muted: #9AA48C;
+  --header-primary: #E2E8D5;
+  --header-secondary: #B7C2A5;
+  --interactive-normal: #A7C080;
+  --interactive-hover: #C1D59C;
+  --interactive-active: #E6F5C6;
+  --interactive-muted: #5B634F;
+
+  /* === HRANY, LIŠTY === */
+  --scrollbar-thin-thumb: #A7C08044;
+  --scrollbar-auto-thumb: #A7C08066;
+  --scrollbar-auto-track: #1B2119;
+
+  /* === AKCENTY A LINKY === */
+  --accent-color: #A7C080;
+  --link-color: #A7C080;
+  --brand-experiment: #A7C080;
+
+  /* === STATUS FARBY (jemne doladené) === */
+  --status-online: #A7C080;
+  --status-idle: #BBAF6F;
+  --status-dnd: #B06767;
+  --status-offline: #5A6053;
+}

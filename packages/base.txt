@@ -1,0 +1,1 @@
+swaync rofi waybar blueman hyprshot hyprpaper brightnessctl polkit-kde-agent archlinux-xdg-menu kitty btop nvtop htop fastfetch flatpak
