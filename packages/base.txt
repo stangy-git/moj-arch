@@ -1,4 +1,4 @@
-swaync rofi hyprland waybar blueman hyprshot hyprpaper brightnessctl polkit-kde-agent archlinux-xdg-menu kitty btop nvtop htop fastfetch flatpak ttf-jetbrains-mono-nerd bluez bluez-utils sddm qt6-qtwayland
+swaync rofi hyprland waybar blueman hyprshot hyprpaper brightnessctl polkit-kde-agent archlinux-xdg-menu kitty btop nvtop htop fastfetch flatpak ttf-jetbrains-mono-nerd bluez bluez-utils sddm qt6-qtwayland gt5-wayland uwsm slurp grim wl-clipboard
 
 
 
